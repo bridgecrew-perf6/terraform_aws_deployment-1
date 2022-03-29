@@ -11,7 +11,7 @@ Terrafom script develop for deploy EC2 instance for Elastic ( could be use also 
      - awscli configure
 
 Before each launch, terraform script will be ask on these info:
----
+ ```yaml
 variable "ami_name" {
     description = "Write your ami name, for example: (hostname, server1, elastic1...)"
 }
@@ -28,7 +28,7 @@ variable "instance_type" {
     description = "Write Instance type, for example: ( t2.nano CPU:1/MEM:0.5,\nt2.micro CPU:1/MEM:1,\nt2.medium CPU:2/MEM:4,\nt3.small CPU:2/MEM:1)"
     
 } 
----
+```
 
 
 Terraform Script for deploy EC2 instance on AWS
