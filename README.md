@@ -48,7 +48,7 @@ variable "instance_type" {
 ## For connection via ssh
 - you will need key-pair.pem file
 ```console
-$ set chmod 400 my-key-pair.pem
+$ chmod 400 my-key-pair.pem
 $ ssh -i my-key-pair.pem user@<ip address>
 ```
 
