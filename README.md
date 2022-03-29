@@ -14,7 +14,8 @@ Terrafom script develop for deploy EC2 instance for Elastic ( could be use also 
 ### Download repository
 ```console
 $ git clone https://github.com/lgriger/terraform_aws_deployment.git
-go into DIR
+```
+### go into DIR
 ```console
 $ cd terraform_aws_deployment
 ```
