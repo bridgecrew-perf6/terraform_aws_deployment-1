@@ -11,13 +11,13 @@ Terrafom script develop for deploy EC2 instance for Elastic ( could be use also 
 
 ## If you want create EC2 instance on AWS via terminal by terraform
 
-# Download repository
+### Download repository
 $ git clone https://github.com/lgriger/terraform_aws_deployment.git
 go into DIR
 $ cd terraform_aws_deployment
-# Initialize a working DIR containing Terraform configuration files
+### Initialize a working DIR containing Terraform configuration files
 $ terraform init
-# run terraform script
+### run terraform script
 $ terraform apply
 
 Before each launch, terraform script will be ask on these info:
