@@ -1,7 +1,7 @@
-# terraform_aws_deployment
+# Terraform_aws_deployment
 Terrafom script develop for deploy EC2 instance for Elastic ( could be use also for develop general EC2 instance but will be open a lot ports!!! )
 
-## prerequirements:
+## Prerequisites:
 
    - create key pair on AWS console
    - AMI ID
