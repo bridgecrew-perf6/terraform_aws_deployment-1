@@ -10,24 +10,24 @@ Terrafom script develop for deploy EC2 instance for Elastic ( could be use also 
      - awscli must be configured
 
 ## If you want create EC2 instance on AWS via terminal by terraform
-
-### Download repository
+Download repository
 ```console
 $ git clone https://github.com/lgriger/terraform_aws_deployment.git
 ```
-### go into DIR
+go into DIR
 ```console
 $ cd terraform_aws_deployment
 ```
-### Initialize a working DIR containing Terraform configuration files
+Initialize a working DIR containing Terraform configuration files
 ```console
 $ terraform init
 ```
-### run terraform script
+run terraform script
 ```console
 $ terraform apply
 ```
-Before each launch, terraform script will be ask on these info:
+
+### Before each launch, terraform script will be ask on these info:
  ```yaml
 variable "ami_name" {
     description = "Write your ami name, for example '( hostname, server1, elastic1... )'"
@@ -51,6 +51,14 @@ variable "instance_type" {
 ```console
 $ chmod 400 my-key-pair.pem
 $ ssh -i my-key-pair.pem user@<ip address>
+```
+## AWSCLI configuration
+```console
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: json
 ```
 
 
